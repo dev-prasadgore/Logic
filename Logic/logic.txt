@@ -1,0 +1,209 @@
+For 150 questions, the raw logic for each would be extremely long. Instead, here's a **compact cheat sheet** with the core algorithm/thought process for all questions.
+
+# Level 1: Basic Logic
+
+1. Even/Odd → `num % 2`
+2. Positive/Negative/Zero → compare with 0
+3. Largest of 2 → compare a and b
+4. Largest of 3 → keep max variable
+5. Smallest of 3 → keep min variable
+6. Leap Year → `(year%400==0) || (year%4==0 && year%100!=0)`
+7. Calculator → switch on operator
+8. Swap with temp → temp=a; a=b; b=temp
+9. Swap without temp → arithmetic/tuple swap
+10. Multiplication Table → loop 1–10
+11. Sum 1..N → accumulate sum
+12. Factorial → multiply 1..N
+13. Square → n*n
+14. Cube → n*n*n
+15. Divisible by 5 & 11 → both remainders 0
+
+
+---
+
+# Level 2: Number Logic
+
+16. Prime → check divisibility 2 to √n
+17. Prime 1..N → call prime logic repeatedly
+18. Fibonacci → next = a+b
+19. Count Digits → repeatedly divide by 10
+20. Reverse Number → extract digits and rebuild
+21. Palindrome Number → reverse and compare
+22. Sum Digits → repeatedly add last digit
+23. Product Digits → repeatedly multiply last digit
+24. Armstrong → sum of digits^digitCount
+25. Perfect Number → sum factors excluding self
+26. Strong Number → sum factorials of digits
+27. Automorphic → square ends with original number
+28. Harshad → divisible by sum of digits
+29. GCD → Euclidean algorithm
+30. LCM → `(a*b)/GCD`
+31. Power → repeated multiplication
+32. Decimal→Binary → divide by 2 repeatedly
+33. Binary→Decimal → powers of 2
+34. Count Even Digits → digit%2==0
+35. Count Odd Digits → digit%2!=0
+
+---
+
+# Level 3: Patterns
+
+36. Right Triangle → rows, print row count stars
+37. Inverted Triangle → decreasing stars
+38. Pyramid → spaces + stars
+39. Inverted Pyramid → reverse pyramid
+40. Diamond → pyramid + inverted pyramid
+41. Number Triangle → print 1..row
+42. Reverse Number Triangle → decreasing numbers
+43. Floyd Triangle → running counter
+44. Pascal Triangle → combination formula
+45. Hollow Square → borders only
+46. Hollow Pyramid → edges only
+47. X Pattern → i==j or i+j==n-1
+48. Butterfly → left stars + spaces + right stars
+49. Sandglass → shrink then expand
+50. Hourglass → inverted + normal pyramid
+
+---
+
+# Level 4: Strings
+
+51. Reverse String → swap chars
+52. Palindrome String → reverse and compare
+53. Count Vowels → check a,e,i,o,u
+54. Count Consonants → letters not vowels
+55. Count Words → split by spaces
+56. Frequency → dictionary count
+57. Remove Duplicates → HashSet
+58. Remove Spaces → replace/remove
+59. Count Uppercase → char.IsUpper
+60. Count Lowercase → char.IsLower
+61. Count Digits → char.IsDigit
+62. First Non-Repeated → frequency then find count=1
+63. First Repeated → track seen chars
+64. Anagram → sort and compare
+65. String Compression → count consecutive chars
+66. Reverse Words → split, reverse words
+67. Longest Word → split and find max length
+68. Replace Character → string.Replace
+69. Toggle Case → upper↔lower
+70. Digits Only → every char digit
+
+---
+
+# Level 5: Arrays
+
+71. Find Maximum → traverse and update max
+72. Find Minimum → traverse and update min
+73. Sum Array → accumulate
+74. Average → sum/count
+75. Count Even → num%2==0
+76. Count Odd → num%2!=0
+77. Second Largest → track largest & second
+78. Second Smallest → track smallest & second
+79. Reverse Array → swap ends inward
+80. Copy Array → loop/copy method
+81. Merge Arrays → append both
+82. Remove Duplicates → HashSet
+83. Rotate Left → shift left, first to end
+84. Rotate Right → shift right, last to front
+85. Linear Search → scan all elements
+86. Binary Search → divide sorted array
+87. Missing Number → expected sum - actual sum
+88. Find Duplicates → frequency map
+89. Find Unique → frequency=1
+90. Array Equality → compare size and values
+
+---
+
+# Level 6: Intermediate Arrays
+
+91. Bubble Sort → adjacent swaps
+92. Selection Sort → select minimum each pass
+93. Insertion Sort → insert into sorted part
+94. Quick Sort → partition around pivot
+95. Merge Sort → divide and merge
+96. Move Zeros End → move non-zeros first
+97. Move Zeros Start → move zeros first
+98. Pair Sum → HashSet lookup
+99. Largest Difference → max-min
+100. Majority Element → count > n/2
+101. Intersection → common elements
+102. Union → combine unique elements
+103. Rotate K Times → repeated rotation/modulo
+104. Kadane → max subarray sum
+105. Max Product Pair → two largest numbers
+
+---
+
+# Level 7: Matrix
+
+106. Matrix Addition → add matching cells
+107. Matrix Subtraction → subtract matching cells
+108. Matrix Multiplication → row × column
+109. Transpose → swap rows and columns
+110. Diagonal Sum → arr[i][i]
+111. Upper Triangle → j>=i
+112. Lower Triangle → j<=i
+113. Row Sum → sum each row
+114. Column Sum → sum each column
+115. Identity Matrix → diagonal=1, rest=0
+116. Symmetric → matrix==transpose
+117. Sparse → mostly zeros
+118. Rotate 90° → transpose + reverse rows
+119. Rotate 180° → reverse rows and cols
+120. Rotate 270° → transpose + reverse cols
+
+---
+
+# Level 8: Recursion
+
+121. Factorial → n * factorial(n-1)
+122. Fibonacci → f(n-1)+f(n-2)
+123. Sum N → n + sum(n-1)
+124. Power → n * power(n-1)
+125. Reverse String → process last char first
+126. Palindrome → compare ends recursively
+127. Sum Digits → digit + recurse(rest)
+128. Binary Search → recurse left/right half
+129. Tower of Hanoi → move n-1 disks
+130. Subsets → include/exclude element
+
+---
+
+# Level 9: Advanced Problems
+
+131. Two Sum → HashMap
+132. Three Sum → sort + two pointers
+133. Longest Unique Substring → sliding window
+134. Valid Parentheses → stack
+135. Balanced Brackets → stack matching
+136. Roman→Integer → scan and apply rules
+137. Integer→Roman → greedy conversion
+138. Merge Intervals → sort and merge overlaps
+139. Stock Buy/Sell → track minimum price
+140. Longest Common Prefix → compare strings
+141. Longest Palindrome → expand around center
+142. Peak Element → binary search
+143. Container Water → two pointers
+144. Trapping Rain Water → left/right max
+145. Sliding Window Max → deque
+146. Spiral Matrix → boundary traversal
+147. Rotate Matrix → transpose + reverse
+148. Word Search → DFS/backtracking
+149. N-Queens → backtracking
+150. Sudoku Solver → backtracking + validation
+
+### Logic Mastery Rule
+
+For every problem:
+
+1. Understand input.
+2. Understand output.
+3. Solve manually on paper.
+4. Identify repeating steps.
+5. Convert repeating steps into loops/conditions.
+6. Code it.
+7. Dry-run with sample data.
+
+That's the exact thinking process used by strong developers during interviews and real-world coding.
