@@ -46,7 +46,14 @@ public class Program
         //arrays.Logic75();
         //arrays.Logic76();
         //arrays.Logic77();
-        arrays.Logic78();
+        //arrays.Logic78();
+        //arrays.Logic79();
+        //arrays.Logic80();
+        //arrays.Logic81();
+        //arrays.Logic82();
+        //arrays.Logic83();
+        //arrays.Logic84();
+        arrays.Logic85();
         #endregion
 
         #region Intermediate Arrays 91 to 105

@@ -206,4 +206,308 @@ For every problem:
 6. Code it.
 7. Dry-run with sample data.
 
-That's the exact thinking process used by strong developers during interviews and real-world coding.
+
+
+```text
+1. Arrays
+Learn:
+- Traversal
+- Insertion
+- Deletion
+- Searching
+- Sorting
+- Sliding Window
+- Two Pointers
+- Prefix Sum
+
+Questions:
+- Find largest/smallest element
+- Remove duplicates
+- Rotate array
+- Move zeros to end
+- Two Sum
+- Maximum subarray sum (Kadane's)
+- Merge two sorted arrays
+- Find missing number
+
+--------------------------------------------------
+
+2. Strings
+Learn:
+- String manipulation
+- Character frequency
+- Palindrome
+- Anagram
+- StringBuilder
+
+Questions:
+- Reverse a string
+- Check palindrome
+- Check anagram
+- Longest common prefix
+- First non-repeating character
+- Count vowels/consonants
+- Remove duplicate characters
+
+--------------------------------------------------
+
+3. Recursion
+Learn:
+- Base case
+- Recursive calls
+- Call stack
+- Backtracking basics
+
+Questions:
+- Factorial
+- Fibonacci
+- Power(x,n)
+- Sum of digits
+- Reverse string recursively
+- Generate subsets
+
+--------------------------------------------------
+
+4. Searching
+Learn:
+- Linear Search
+- Binary Search
+
+Questions:
+- Binary search in sorted array
+- First occurrence
+- Last occurrence
+- Search insert position
+- Find square root using binary search
+
+--------------------------------------------------
+
+5. Sorting
+Learn:
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+
+Questions:
+- Sort array
+- Merge sorted arrays
+- Sort colors
+- Kth largest element
+
+--------------------------------------------------
+
+6. Linked List
+Learn:
+- Singly Linked List
+- Doubly Linked List
+- Circular Linked List
+
+Questions:
+- Reverse linked list
+- Find middle node
+- Detect cycle
+- Remove nth node from end
+- Merge two linked lists
+- Delete node
+
+--------------------------------------------------
+
+7. Stack
+Learn:
+- Push
+- Pop
+- Peek
+
+Questions:
+- Valid parentheses
+- Reverse string using stack
+- Next greater element
+- Min Stack
+- Evaluate postfix expression
+
+--------------------------------------------------
+
+8. Queue
+Learn:
+- Enqueue
+- Dequeue
+- Circular Queue
+- Priority Queue
+
+Questions:
+- Implement queue using stack
+- First non-repeating character
+- Generate binary numbers
+
+--------------------------------------------------
+
+9. Hashing
+Learn:
+- Dictionary<TKey,TValue>
+- HashSet<T>
+
+Questions:
+- Two Sum
+- Find duplicates
+- Frequency count
+- Intersection of arrays
+- Longest consecutive sequence
+
+--------------------------------------------------
+
+10. Binary Tree
+Learn:
+- Tree structure
+- DFS
+- BFS
+
+Questions:
+- Inorder traversal
+- Preorder traversal
+- Postorder traversal
+- Level order traversal
+- Height of tree
+- Count nodes
+- Mirror tree
+
+--------------------------------------------------
+
+11. Binary Search Tree (BST)
+Learn:
+- BST properties
+- Search
+- Insert
+- Delete
+
+Questions:
+- Search in BST
+- Insert node
+- Delete node
+- Validate BST
+- Lowest Common Ancestor
+- Kth smallest element
+- Find min/max
+
+--------------------------------------------------
+
+12. Heap / Priority Queue
+Learn:
+- Min Heap
+- Max Heap
+
+Questions:
+- Kth largest element
+- Top K frequent elements
+- Merge K sorted arrays
+- Find median in stream
+
+--------------------------------------------------
+
+13. Graph
+Learn:
+- Adjacency List
+- BFS
+- DFS
+
+Questions:
+- Graph traversal
+- Detect cycle
+- Connected components
+- Number of islands
+- Shortest path
+
+--------------------------------------------------
+
+14. Backtracking
+Learn:
+- Choose
+- Explore
+- Backtrack
+
+Questions:
+- N Queens
+- Sudoku Solver
+- Permutations
+- Combinations
+- Word Search
+
+--------------------------------------------------
+
+15. Dynamic Programming (DP)
+Learn:
+- Memoization
+- Tabulation
+
+Questions:
+- Fibonacci DP
+- Climbing Stairs
+- House Robber
+- Coin Change
+- Longest Common Subsequence
+- Knapsack
+
+--------------------------------------------------
+
+16. Greedy
+Learn:
+- Local optimum approach
+
+Questions:
+- Activity Selection
+- Meeting Rooms
+- Jump Game
+- Minimum Coins
+
+--------------------------------------------------
+
+17. Trie
+Learn:
+- Prefix Tree
+- Insert
+- Search
+
+Questions:
+- Implement Trie
+- Search word
+- Prefix matching
+- Auto-complete system
+
+--------------------------------------------------
+
+18. Bit Manipulation
+Learn:
+- AND
+- OR
+- XOR
+- Shift Operators
+
+Questions:
+- Check odd/even
+- Power of 2
+- Count set bits
+- Single number
+- Missing number
+
+--------------------------------------------------
+
+MOST IMPORTANT FOR .NET INTERVIEWS
+
+1. Arrays
+2. Strings
+3. Dictionary / HashSet
+4. Linked List
+5. Stack
+6. Queue
+7. Binary Search
+8. Sorting
+9. Binary Tree
+10. BST
+11. Heap
+12. Graph BFS/DFS
+13. Recursion
+14. Dynamic Programming
+
+Master these 14 topics first.
+```
