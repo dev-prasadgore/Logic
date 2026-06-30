@@ -24,7 +24,27 @@ public class Program
         #endregion
 
         #region NumberLogic 16 to 35
-        //NumberLogic numberLogic=new NumberLogic();
+        NumberLogic numberLogic=new NumberLogic();
+        //numberLogic.Logic16();
+        //numberLogic.Logic17();
+        //numberLogic.Logic18();
+        //numberLogic.Logic19();
+        //numberLogic.Logic20();
+        //numberLogic.Logic21();
+        //numberLogic.Logic22();
+        //numberLogic.Logic34();
+        //numberLogic.Logic35();
+        //numberLogic.Logic23();
+        //numberLogic.Logic24();
+        //numberLogic.Logic25();
+        //numberLogic.Logic26();
+        //numberLogic.Logic27();
+        //numberLogic.Logic28();
+        //numberLogic.Logic29();
+        //numberLogic.Logic30();
+        //numberLogic.Logic31();
+        //numberLogic.Logic32();
+        numberLogic.Logic33();
         #endregion
 
         #region Patterns 36 to 50
@@ -38,7 +58,7 @@ public class Program
         #endregion
 
         #region Arrays 71 to 90
-        Arrays arrays = new Arrays();
+        //Arrays arrays = new Arrays();
         //arrays.Logic71();
         //arrays.Logic72();
         //arrays.Logic73();
@@ -53,7 +73,7 @@ public class Program
         //arrays.Logic82();
         //arrays.Logic83();
         //arrays.Logic84();
-        arrays.Logic85();
+        //arrays.Logic85();
         #endregion
 
         #region Intermediate Arrays 91 to 105
