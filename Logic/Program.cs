@@ -23,8 +23,8 @@ public class Program
         //basic_Logic.Logic15();
         #endregion
 
-        #region NumberLogic 16 to 35
-        NumberLogic numberLogic=new NumberLogic();
+        #region NumberLogic 16 to 35(Done)
+        //NumberLogic numberLogic=new NumberLogic();
         //numberLogic.Logic16();
         //numberLogic.Logic17();
         //numberLogic.Logic18();
