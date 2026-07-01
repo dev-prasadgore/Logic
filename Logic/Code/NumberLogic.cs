@@ -326,10 +326,38 @@ namespace Logic.Code
             Console.WriteLine($"Binary {binary}");
         
         }
-        //33. Binary→Decimal → powers of 2
-        public void Logic33() {
-            
-        
+        //33. Binary → Decimal (Cheated)
+        public void Logic33()
+        {
+            int binary = 1101;
+            int tempBinary = binary;
+
+            int decimalNumber = 0;
+            int power = 0;
+
+            while (tempBinary > 0)
+            {
+                // Get the last binary digit (0 or 1)
+                int digit = tempBinary % 10;
+
+                // Calculate 2^power manually
+                int value = 1;
+                for (int i = 0; i < power; i++)
+                {
+                    value *= 2;
+                }
+
+                // Add digit × 2^power
+                decimalNumber += digit * value;
+
+                // Increase the power for the next digit
+                power++;
+
+                // Remove the last digit
+                tempBinary /= 10;
+            }
+
+            Console.WriteLine($"Decimal Number = {decimalNumber}");
         }
         //34. Count Even Digits → digit%2==0
         public void Logic34() {
