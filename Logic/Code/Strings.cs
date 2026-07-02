@@ -9,7 +9,16 @@ namespace Logic.Code
     internal class Strings
     {
         //51. Reverse String → swap chars
+        public void Logic51()
+        {
+             
+        }
+
         //52.Palindrome String → reverse and compare
+        public void Logic52()
+        {
+
+        }
         //53. Count Vowels → check a, e, i, o, u
         //54.Count Consonants → letters not vowels
         //55. Count Words → split by spaces

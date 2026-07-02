@@ -44,12 +44,14 @@ public class Program
         //numberLogic.Logic30();
         //numberLogic.Logic31();
         //numberLogic.Logic32();
-        numberLogic.Logic33();
+        //numberLogic.Logic33();
         #endregion
 
         #region Patterns 36 to 50
-        //Patterns patterns = new Patterns();
-
+        Patterns patterns = new Patterns();
+        //patterns.Logic36();
+        //patterns.Logic37();
+        //patterns.Logic38();
         #endregion
 
         #region Strings 51 to 70
